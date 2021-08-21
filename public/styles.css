@@ -141,7 +141,8 @@ footer {
 }
 
 #footer-text {
-    background-color: rgb(24, 23, 23);
+    /* background-color: rgb(24, 23, 23); */
+    background-color: white;
 }
 
 /* At any screen smaller than boostrap's lg breakpoint, make page content more centered */
