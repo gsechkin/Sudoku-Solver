@@ -144,6 +144,14 @@ footer {
     background-color: rgb(24, 23, 23);
 }
 
+/* On large resolution screens, space the content from the footer to rid whitespace from under footer */
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
 /* At any screen smaller than boostrap's lg breakpoint, make page content more centered */
 @media (max-width: 992px) { 
     #sudoku {
